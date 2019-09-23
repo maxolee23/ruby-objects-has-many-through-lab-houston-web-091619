@@ -22,5 +22,9 @@ class Artist
     Song.new(name, self, genre)
   end
 
+  def genres 
+    a = Song.all select {|song| song.genre}
+  end
+
 
 end
