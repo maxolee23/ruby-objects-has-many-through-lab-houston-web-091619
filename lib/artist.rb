@@ -11,7 +11,7 @@ class Artist
 
 
   def self.all
-    @@all 
+    @@all
   end
 
 
