@@ -23,7 +23,7 @@ class Artist
   end
 
   def genres
-    a = Song.all select {|song| song.genre}
+    songs.collect {|song| song.genre}
   end
 
 
